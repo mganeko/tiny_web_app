@@ -1,6 +1,6 @@
 const http = require('http');
 
-const message = 'Main Slot';
+const message = 'Staging Slot';
 const server = http.createServer(function (request, response) {
   response.writeHead(200, { "Content-Type": "text/html" });
   response.end(`<html><body><h1>Hello ${message}!</h1></body></html>`);
